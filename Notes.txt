@@ -8,3 +8,4 @@ pip install --user git+git://github.com/powerline/powerline
 # for dvtm
 git clone https://github.com/Gazaunga/dvtm.git
 
+arch packages(s-tui-git)
