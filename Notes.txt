@@ -2,4 +2,9 @@ i3 terminal: termite -e screen -e dvtm -M
 new border pixel 1
 
 %%
+# to get a pretty screen
 pip install --user git+git://github.com/powerline/powerline
+
+# for dvtm
+git clone https://github.com/Gazaunga/dvtm.git
+
