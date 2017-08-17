@@ -1,1 +1,1 @@
-DVTM_TERM=termite
+DVTM_TERM=termite dvtm
