@@ -1,3 +1,5 @@
 i3 terminal: termite -e screen -e dvtm -M
 new border pixel 1
 
+%%
+pip install --user git+git://github.com/powerline/powerline
