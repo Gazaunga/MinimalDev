@@ -1,3 +1,4 @@
+BASH_DIR=$HOME/bash
 DVTM_TERM=termite dvtm
 
 source ~/bash/exports
