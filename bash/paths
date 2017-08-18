@@ -1,0 +1,7 @@
+ORIGINAL_PATH=$PATH
+export PATH=$HOME/.local/share/applications
+#export PATH=$HOME/new_path
+export PATH=$PATH:$ORIGINAL_PATH
+
+#Path helper
+alias find_dead_path_items="echo $PATH | tr ':' '\n' | xargs ls -ld"
