@@ -1,2 +1,4 @@
 export EDITOR=
 export TERM=xterm-256color
+export VISUAL=
+export BROWSER=
