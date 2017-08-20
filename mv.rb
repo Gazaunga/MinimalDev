@@ -6,3 +6,5 @@ cp -Rv .!(|.|git) ~/#{Home}
   }
 
 dirmerge
+
+# for bash need?: shopt -s extglob
