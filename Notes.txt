@@ -9,3 +9,6 @@ pip install --user git+git://github.com/powerline/powerline
 git clone https://github.com/Gazaunga/dvtm.git
 
 arch packages(s-tui-git)
+
+upatom worked without all the hubub, just the apm command.
+-how to make it work?
