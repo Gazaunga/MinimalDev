@@ -1,19 +1,20 @@
-activity ""
-altscreen on
-autodetach on
-defbce on
-deflogin on
-defflow off
-defscrollback 2048
-msgwait 1
-nethack on
-nonblock on
-startup_message off
-vbell off
-vbell_msg ""
-defutf8 on
-utf8 on on
-startup_message off
-term "screen-256color"
+# Statusbar
+hardstatus off
+hardstatus alwayslastline
+# hardstatus string "%{+b wk} %-w%{+b wk} %n %t %{-}%+w %41=%H @ %l %-= %= %D, %c:%s "
+hardstatus string "%{+b wk} %-w%{+b wB} %n %t %{-}%+w %41=%H @ %l %-= %= %D, %c:%s "
 
-caption always "%{= kb}[ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{B} %H %{W}%l %{b}][%{B} %d.%m.%Y %{W}%0c %{b}]"
+# To clear the screen after closing some programs
+altscreen on
+
+# Windows opening by default
+screen -t "BASH" 1
+screen -t "RUSH" 2 rush2
+screen -t "ZSH" 3 zsh
+
+# COLORS! and some useful terminfo
+term screen-256color
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+# Do not show startup message
+startup_message off
