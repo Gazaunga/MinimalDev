@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-Home=system("$HOME")
+Home=`$HOME`
 
 dirmerge(dir1,dir2) {
 `cp -Rv #{ARGV[0]}/* #{ARGV[1]}/`
