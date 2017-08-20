@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
+dirmerge {
 Home=`$HOME`
+cp -Rv .!(|.|git) ~/#{Home}
+  }
 
-dirmerge(dir1,dir2) {
-`cp -Rv #{ARGV[0]}/* #{ARGV[1]}/`
-`cp -Rv #{ARGV[0]}/.* #{ARGV[1]}/`
-}
-dirmerge MinimalDev $Home
+dirmerge
