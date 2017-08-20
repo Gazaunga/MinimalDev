@@ -13,3 +13,5 @@ arch packages(s-tui-git)
 upatom worked without all the hubub, just the apm command.
 -how to make it work?
 -I need to run it at least once into a log file and analyze the output
+
+Themes to stay: horizon, powerline, pta, tango
