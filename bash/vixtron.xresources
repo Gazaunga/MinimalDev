@@ -1,0 +1,26 @@
+! ROFI SETUP HERE !
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #181818, #9B2323, #9B2323
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #181818, #c5c8c6, #181818, #1e1e20, #fff
+rofi.color-active: #181818, #c5c8c6, #181818, #1e1e20, #fff
+rofi.color-urgent: #181818, #c6c8c6, #181818, #1e1e20, #fff
+!1e1e20
+rofi.width: 100
+rofi.height: 14
+rofi.separator-style: dash
+rofi.sidebar-mode: false
+rofi.lines: 10
+rofi.font: Noto Mono 10
+rofi.bw: 2
+rofi.columns: 2
+rofi.padding: 10
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+rofi.terminal: termite
+rofi.yoffset: 416
+!rofi.xoffset: 750
+!rofi.opacity: 100
