@@ -1,7 +1,7 @@
-ORIGINAL_PATH=$PATH
-PATH=~/.local/bin:$PATH
-#export PATH=$HOME/new_path
-export PATH=$PATH:$ORIGINAL_PATH
+PATH="$PATH:$HOME/.local/bin"
+PATH="$PATH:$HOME/.local/scripts"
+PATH="$PATH:$HOME/.wallpapers"
+PATH="$PATH:$HOME/.gem/ruby/*.*.*/bin"
 
 #Path helper
 alias find_dead_path_items="echo $PATH | tr ':' '\n' | xargs ls -ld"
