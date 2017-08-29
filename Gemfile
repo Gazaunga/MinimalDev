@@ -17,4 +17,4 @@ gem 'tmuxinator'
 gem 'whenever'
 gem 'prawn'
 gem 'colorls'
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails'
