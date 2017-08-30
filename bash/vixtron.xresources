@@ -1,3 +1,6 @@
+URxvt.depth: 32
+URxvt.background: [95]#000000
+
 ! ROFI SETUP HERE !
 
 ! Enable the extended coloring options
