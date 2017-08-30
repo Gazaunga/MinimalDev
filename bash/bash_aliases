@@ -3,3 +3,4 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias back="cd -" #go to last used directory
 alias urxvt="bash ~/.local/bin/urxvtd"
+alias launch="urxvt -geometry 80x3 -name 'bashrun' -e sh -c "/bin/bash -i -t""
