@@ -1,4 +1,5 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias cdd="cd -" #go to last used directory
+alias back="cd -" #go to last used directory
+alias urxvt="bash ~/.local/bin/urxvtd"
