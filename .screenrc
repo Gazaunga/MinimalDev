@@ -9,8 +9,7 @@ altscreen on
 
 # Windows opening by default
 screen -t "BASH" 1
-screen -t "RUSH" 2 rush2
-screen -t "ZSH" 3 zsh
+screen -t "ZSH" 2 zsh
 
 # COLORS! and some useful terminfo
 term screen-256color
