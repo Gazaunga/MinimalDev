@@ -8,6 +8,7 @@ packages=(
   i3status-git
   i3lock-fancy-git
   nitrogen
+  micro
   compton
   terminator
   nerd-fonts-git
