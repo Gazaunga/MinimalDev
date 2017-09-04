@@ -21,6 +21,7 @@ exec --no-startup-id touchpad-update
 # Start polybar
 exec --no-startup-id $HOME/.config/polybar/launch.sh
 
+
 set $mod Mod1
 
 ##############
@@ -69,7 +70,7 @@ bindsym XF86TouchpadToggle exec --no-startup-id touchpad-toggle
 #bindsym XF86AudioNext exec playerctl previous
 
 # Font for window titles and bar, unless specified differently
-font pango:Inconsolata 11
+font pango:Raleway 12
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -78,6 +79,7 @@ floating_modifier $mod
 bindsym $mod+Return exec terminator
 bindsym $mod+c exec terminator -x ranger
 bindsym $mod+m exec terminator -x cmus
+#bindsym x+x exec terminator -x vtop &
 
 # kill focused window
 bindsym $mod+q kill
