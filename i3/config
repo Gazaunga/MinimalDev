@@ -19,7 +19,7 @@ exec --no-startup-id xrdb ~/.config/rofi/config
 # Set the touchpad state
 exec --no-startup-id touchpad-update
 # Start polybar
-exec --no-startup-id polybar default
+exec --no-startup-id $HOME/.config/polybar/launch.sh
 
 set $mod Mod1
 
