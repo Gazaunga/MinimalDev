@@ -32,6 +32,7 @@ packages=(
   scrot
   redshift
   wpa_supplicant
+  ttf-raleway
 )
 pacaur -S --noconfirm --noedit ${packagelist[@]}
 
