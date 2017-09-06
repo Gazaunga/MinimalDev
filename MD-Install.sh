@@ -34,7 +34,6 @@ packages=(
   redshift
   wpa_supplicant
   ttf-raleway
-  qutebrowser-git
   qutebrowser-qtwebengine
 )
 pacaur -S --noconfirm --noedit ${packagelist[@]}
