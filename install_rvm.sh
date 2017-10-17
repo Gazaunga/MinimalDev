@@ -19,11 +19,11 @@ function install_rvm {
   . "$HOME/.rvmrc"
   . ~/.rvm/scripts/rvm
 
-  echo '===> Installing Ruby 2.4.1'
-  rvm install 2.4.1
+  echo '===> Installing Ruby 2.4.2'
+  rvm install 2.4.2
 
-  echo '===> Setting default to 2.4.1'
-  rvm --default use 2.4.1
+  echo '===> Setting default to 2.4.2'
+  rvm --default use 2.4.2
 
 
   current_user=`whoami`
