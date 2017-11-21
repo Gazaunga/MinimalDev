@@ -20,8 +20,15 @@ for file in "$BASH_DIR"/*; do
 [[ -x $file ]] && source "$file"
 done
 
-export GOPATH=$HOME/.go
+export GOPATH=$HOME/.workspace/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+haste() { 
+    curl -sd "$(cat $1)" http://hastebin.com/documents | 
+    sed -e 's/{"key":"/http:\/\/hastebin.com\//' -e "s/\"}/\.$(echo $1 | 
+      sed -e 's/.*\.//')\n/"; 
+  }
 
 # Must be last line
 [[ $TERM != "screen" ]] && exec screen -q
+
